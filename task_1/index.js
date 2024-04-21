@@ -1,7 +1,5 @@
 import { encoded, translations } from "./data.js";
 
-import { encoded, translations } from "./data.js";
-
 const EXCEPTIONS = ["groupId", "service", "formatSize", "ca"];
 const uniqIds = [];
 
@@ -26,4 +24,3 @@ encoded.forEach((obj) => {
 console.log(encoded);
 console.log(uniqIds);
 
-// console.log(decoded)
